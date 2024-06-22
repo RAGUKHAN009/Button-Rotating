@@ -1,10 +1,11 @@
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   background-image: linear-gradient(to right, #ff69b4, #33cc33);
   background-size: 200px 200px;
   background-position: 0% 50%;
+  transition: 0.4s ease all;
   transform: rotate(0deg);
   cursor: grab;
 }

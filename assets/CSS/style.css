@@ -1,0 +1,14 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: linear-gradient(to right, #ff69b4, #33cc33);
+  background-size: 200px 200px;
+  background-position: 0% 50%;
+  transform: rotate(0deg);
+  cursor: grab;
+}
+
+.circle:active {
+  cursor: grabbing;
+}
